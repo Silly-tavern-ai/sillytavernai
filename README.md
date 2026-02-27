@@ -2,9 +2,13 @@
 
 *最終更新日：2026年2月27日*
 
+SillyTavernは、KoboldAI/CPP、Horde、NovelAI、Ooba、Tabby、OpenAI、OpenRouter、Claude、Mistralなど、多数のLLM APIに統一されたインターフェースを提供します。
+![SillyTavern_v1.60.0_Screenshots 2026-02-27.png](SillyTavern_v1.60.0_Screenshots 2026-02-27.png)
+
+今、MiniTavernを通じて、iPhoneで同じ強力な機能体験をお楽しみいただけます。
 ![MiniTavern App Store Screenshots](minitavern_app_store.png)
 
-SillyTavernは、KoboldAI/CPP、Horde、NovelAI、Ooba、Tabby、OpenAI、OpenRouter、Claude、Mistralなど、多数のLLM APIに統一されたインターフェースを提供します。今、MiniTavernを通じて、iPhoneで同じ強力な機能体験をお楽しみいただけます。
+[MiniTavern App Store](https://mini-tavern.onelink.me/nPqv/wk127r7t)
 
 [ダウンロードして使用する（iOS）](https://mini-tavern.onelink.me/nPqv/wk127r7t)
 
