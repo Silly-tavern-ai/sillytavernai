@@ -52,3 +52,5 @@ MiniTavernは業界主流のAIモデルをサポートし、いつでもどこ�
 - **無限の拡張可能性**：サードパーティ拡張機能でさらに多くの機能を実現
 
 今すぐMiniTavernをダウンロードして、SillyTavernの強力な機能をポケットに！
+
+[ダウンロードして使用する（iOS）](https://mini-tavern.onelink.me/nPqv/wk127r7t)
