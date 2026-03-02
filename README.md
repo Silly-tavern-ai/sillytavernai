@@ -1,4 +1,6 @@
-# スマホでSillyTavern！ 完全無料 MiniTavern | iPhoneアプリで超簡単スタート 2026年3月最新ガイド
+# スマホでSillyTavern！ 完全無料 MiniTavern | iPhoneアプリで超簡単スタート | 2026年3月最新ガイド
+
+2026年3月最新ガイド
 
 *最終更新日：2026年3月2日*
 
