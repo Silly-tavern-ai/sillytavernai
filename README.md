@@ -1,6 +1,6 @@
 # スマホでSillyTavern！ 完全無料 MiniTavern | iPhoneアプリで超簡単スタート 2026年3月最新ガイド
 
-*最終更新日：2026年2月27日*
+*最終更新日：2026年3月2日*
 
 SillyTavernは、KoboldAI/CPP、Horde、NovelAI、Ooba、Tabby、OpenAI、OpenRouter、Claude、Mistralなど、多数のLLM APIに統一されたインターフェースを提供します。
 
