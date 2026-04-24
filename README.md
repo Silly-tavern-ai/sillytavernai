@@ -1,8 +1,8 @@
-# スマホでSillyTavern！ 完全無料 MiniTavern | iPhoneアプリで超簡単スタート | 2026年3月最新ガイド
+# スマホでSillyTavern！ 完全無料 MiniTavern | iPhoneアプリで超簡単スタート | 2026年4月最新ガイド
 
-2026年3月最新ガイド
+2026年4月最新ガイド
 
-*最終更新日：2026年3月27日*
+*最終更新日：2026年4月24日*
 
 SillyTavernは、KoboldAI/CPP、Horde、NovelAI、Ooba、Tabby、OpenAI、OpenRouter、Claude、Mistralなど、多数のLLM APIに統一されたインターフェースを提供します。
 
@@ -12,7 +12,7 @@ SillyTavernは、KoboldAI/CPP、Horde、NovelAI、Ooba、Tabby、OpenAI、OpenRo
 
 ![MiniTavern App Store Screenshots](minitavern_app_store.png)
 
-[ダウンロードして使用する（iOS）](https://mini-tavern.onelink.me/nPqv/wk127r7t) | [ダウンロードして使用する（Android）](https://github.com/minitavern/MiniTavern_Android/releases)
+[ダウンロードして使用する（iOS）](https://mini-tavern.onelink.me/nPqv/wk127r7t) | [ダウンロードして使用する（Android）](https://play.google.com/store/apps/details?id=com.kongyouwangluo.minitavern)
 
 ## 多様なAIモデルに対応
 
