@@ -4,34 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="RPWfS6HI6ryWsaD3MxARTBlxzitabEBFOg6Lx3t4Yv0" />
-    <meta name="description" content="スマホでSillyTavern！完全無料 MiniTavern - iPhoneアプリで超簡単スタート">
-    <meta name="keywords" content="SillyTavern, MiniTavern, iPhone, AI, ChatGPT, Claude, Gemini">
-    <title>スマホでSillyTavern！完全無料 MiniTavern | iPhoneアプリで超簡単スタート</title>
+    <meta name="description" content="スマホで SillyTavern（Silly Tavern）｜MiniTavern｜iPhone・Android 対応。SillyTavern キャラクターカード（日本語）のインポート、SillyTavern スマホで簡単スタート。">
+    <meta name="keywords" content="SillyTavern, Silly Tavern, MiniTavern, Android, iPhone, キャラクターカード, キャラクターカード 日本語, SillyTavern スマホ, SillyTavern キャラクター, character cards, 酒馆">
+    <title>スマホで SillyTavern（Silly Tavern）｜MiniTavern｜iPhone・Android｜キャラクターカード 日本語</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
             line-height: 1.7;
             color: #2c3e50;
             background: #fff;
         }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 60px 20px;
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 60px;
-        }
-
+        .container { max-width: 800px; margin: 0 auto; padding: 60px 20px; }
+        header { text-align: center; margin-bottom: 60px; }
         h1 {
             font-size: 2.5em;
             margin-bottom: 20px;
@@ -39,38 +24,23 @@
             line-height: 1.4;
             color: #1a1a1a;
         }
-
-        .update-date {
-            font-size: 0.9em;
-            color: #7f8c8d;
-            font-style: italic;
-        }
-
-        .intro {
-            margin: 60px 0;
-            font-size: 1.15em;
-            color: #34495e;
-            line-height: 1.8;
-        }
-
-        .screenshot-section {
-            margin: 60px 0;
-        }
-
+        .update-date { font-size: 0.9em; color: #7f8c8d; font-style: italic; }
+        .intro { margin: 60px 0; font-size: 1.15em; color: #34495e; line-height: 1.8; }
+        .intro p + p { margin-top: 1em; }
+        .screenshot-section { margin: 60px 0; }
         .screenshot-section img {
             width: 100%;
             height: auto;
             margin: 30px 0;
             border: 1px solid #e1e8ed;
         }
-
         .screenshot-section p {
             margin: 40px 0;
             font-size: 1.15em;
             color: #34495e;
             line-height: 1.8;
         }
-
+        .cta-group { text-align: center; margin: 20px 0 10px; }
         .cta-button {
             display: inline-block;
             background: #1a1a1a;
@@ -81,109 +51,69 @@
             font-weight: 500;
             font-size: 1em;
             transition: background 0.2s ease;
-            margin: 20px 0;
+            margin: 8px 6px;
         }
-
-        .cta-button:hover {
-            background: #333;
+        .cta-button:hover { background: #333; }
+        .cta-button.secondary {
+            background: #fff;
+            color: #1a1a1a;
+            border: 1px solid #1a1a1a;
         }
-
-        .content {
-            margin-top: 80px;
+        .cta-button.secondary:hover { background: #f5f5f5; }
+        .download-note {
+            font-size: 0.95em;
+            color: #7f8c8d;
+            text-align: center;
+            margin-top: 16px;
+            line-height: 1.7;
         }
-
+        .content { margin-top: 80px; }
         h2 {
             font-size: 1.8em;
             margin: 60px 0 30px 0;
             font-weight: 600;
             color: #1a1a1a;
         }
-
-        .content > p {
-            margin: 20px 0;
-            font-size: 1.05em;
-            color: #34495e;
-        }
-
-        .feature-list {
-            list-style: none;
-            margin: 30px 0;
-        }
-
+        .content > p { margin: 20px 0; font-size: 1.05em; color: #34495e; }
+        .feature-list { list-style: none; margin: 30px 0; }
         .feature-list li {
-            padding: 12px 0;
-            padding-left: 24px;
+            padding: 12px 0 12px 24px;
             position: relative;
             font-size: 1.05em;
             color: #34495e;
         }
-
         .feature-list li:before {
             content: "−";
             position: absolute;
             left: 0;
             color: #95a5a6;
         }
-
-        .feature-list strong {
-            color: #1a1a1a;
-            font-weight: 600;
-        }
-
-        .sub-list {
-            list-style: none;
-            margin-left: 24px;
-            margin-top: 12px;
-        }
-
-        .sub-list li {
-            padding: 8px 0;
-            padding-left: 20px;
-            position: relative;
-            font-size: 0.95em;
-        }
-
+        .feature-list strong { color: #1a1a1a; font-weight: 600; }
+        .sub-list { list-style: none; margin-left: 24px; margin-top: 12px; }
+        .sub-list li { padding: 8px 0 8px 20px; position: relative; font-size: 0.95em; }
         .sub-list li:before {
             content: "·";
             position: absolute;
             left: 0;
             color: #95a5a6;
         }
-
         footer {
             margin-top: 100px;
             padding-top: 60px;
             border-top: 1px solid #e1e8ed;
             text-align: center;
         }
-
-        footer p {
-            font-size: 1.2em;
-            margin-bottom: 30px;
-            color: #34495e;
-        }
-
+        footer p { font-size: 1.2em; margin-bottom: 30px; color: #34495e; }
         @media (max-width: 768px) {
-            .container {
-                padding: 40px 20px;
-            }
-
-            h1 {
-                font-size: 1.8em;
-            }
-
-            h2 {
-                font-size: 1.5em;
-                margin: 40px 0 20px 0;
-            }
-
-            .intro, .screenshot-section p {
-                font-size: 1.05em;
-            }
-
+            .container { padding: 40px 20px; }
+            h1 { font-size: 1.8em; }
+            h2 { font-size: 1.5em; margin: 40px 0 20px 0; }
+            .intro, .screenshot-section p { font-size: 1.05em; }
             .cta-button {
                 display: block;
                 text-align: center;
+                margin: 10px auto;
+                max-width: 320px;
             }
         }
     </style>
@@ -191,41 +121,42 @@
 <body>
     <div class="container">
         <header>
-            <h1>スマホでSillyTavern！<br>完全無料 MiniTavern<br>iPhoneアプリで超簡単スタート</h1>
-            <p class="update-date">最終更新日：2026年4月24日</p>
+            <h1>スマホで SillyTavern（Silly Tavern）<br>完全無料 MiniTavern<br>iPhone・Android で簡単スタート</h1>
+            <p class="update-date">最終更新日：2026年6月1日</p>
         </header>
 
         <div class="intro">
-            <p>SillyTavernは、KoboldAI/CPP、Horde、NovelAI、Ooba、Tabby、OpenAI、OpenRouter、Claude、Mistralなど、多数のLLM APIに統一されたインターフェースを提供します。</p>
+            <p><strong>SillyTavern</strong>（Silly Tavern）は、KoboldAI/CPP、Horde、NovelAI、Ooba、Tabby、OpenAI、OpenRouter、Claude、Mistral など、多数の LLM API を一つの画面から扱える人気のフロントエンドです。</p>
+            <p>日本語の <strong>SillyTavern キャラクターカード</strong> を探している方、<strong>SillyTavern スマホ</strong> で手軽に始めたい方、<strong>SillyTavern キャラクター</strong> や <strong>SillyTavern character cards</strong> をそのまま使いたい方に向けて、<strong>MiniTavern</strong> が iPhone と <strong>Android</strong> の両方で同じ系統の体験を提供します。</p>
         </div>
 
         <div class="screenshot-section">
-            <img src="SillyTavern_v1.16.0_Screenshot_2026-02-27.png" alt="SillyTavern_v1.16.0 製品のスクリーンショット">
-            
-            <p>今、MiniTavernを通じて、iPhoneで同じ強力な機能体験をお楽しみいただけます。</p>
-            
-            <img src="minitavern_app_store.png" alt="MiniTavern App Store Screenshots">
-            
-            <p style="text-align: center;">
-                <a href="https://mini-tavern.onelink.me/nPqv/wk127r7t" class="cta-button" target="_blank">ダウンロードして使用する（iOS）</a>
-                <a href="https://play.google.com/store/apps/details?id=com.kongyouwangluo.minitavern" class="cta-button" target="_blank">ダウンロードして使用する（Android）</a>
-            </p>
+            <img src="SillyTavern_v1.16.0_Screenshot_2026-02-27.png" alt="SillyTavern 製品のスクリーンショット">
+            <p>今、MiniTavern を通じて、iPhone と <strong>Android</strong> の両方で、SillyTavern 系の強力な機能体験をお楽しみいただけます。中国語圏では「酒馆」と呼ばれることもありますが、カード形式は <strong>SillyTavern</strong> エコシステムと互換です。</p>
+            <img src="minitavern_app_store.png" alt="MiniTavern App Store スクリーンショット">
+            <div class="cta-group">
+                <a href="https://mini-tavern.onelink.me/nPqv/wk127r7t" class="cta-button" target="_blank" rel="noopener noreferrer">ダウンロード（iOS）</a>
+                <a href="https://play.google.com/store/apps/details?id=com.kongyouwangluo.minitavern" class="cta-button" target="_blank" rel="noopener noreferrer">ダウンロード（Android・Google Play）</a>
+                <a href="https://github.com/minitavern/MiniTavern_Android/releases" class="cta-button secondary" target="_blank" rel="noopener noreferrer">Android（GitHub Releases）</a>
+            </div>
+            <p class="download-note">Android は通常 <strong>Google Play</strong> を主導線としてください。ストア審査に時間差がある場合は、<strong>GitHub Releases</strong> から最新の利用可能ビルドを取得できます。</p>
         </div>
 
         <div class="content">
-            <h2>多様なAIモデルに対応</h2>
-            <p>MiniTavernは業界主流のAIモデルをサポートし、いつでもどこでもAIアシスタントと対話できます：</p>
+            <h2>多様な AI モデルに対応</h2>
+            <p>MiniTavern は業界主流の AI モデルをサポートし、<strong>SillyTavern スマホ</strong> でもいつでもどこでも AI アシスタントと対話できます。</p>
             <ul class="feature-list">
-                <li><strong>主流モデル完全対応</strong>：OpenAI ChatGPT、Anthropic Claude、Google Gemini、xAI Grokなど</li>
-                <li><strong>カスタムインターフェース</strong>：OpenRouter、OllamaなどのOpenAI互換インターフェースに対応</li>
+                <li><strong>主流モデル完全対応</strong>：OpenAI ChatGPT、Anthropic Claude、Google Gemini、xAI Grok など</li>
+                <li><strong>カスタムインターフェース</strong>：OpenRouter、Ollama などの OpenAI 互換インターフェースに対応</li>
                 <li><strong>柔軟な設定</strong>：様々な使用シーンに合わせて、モデルを簡単に切り替え</li>
             </ul>
 
-            <h2>キャラクターカードの簡単インポート</h2>
+            <h2>キャラクターカードの簡単インポート（日本語・SillyTavern 互換）</h2>
+            <p><strong>SillyTavern キャラクターカード 日本語</strong> やコミュニティの <strong>SillyTavern 日本語 キャラクター</strong> データも、形式が互換であればそのまま利用できます。</p>
             <ul class="feature-list">
                 <li><strong>内蔵サンプルキャラクター</strong>：性別や性格が異なる複数のサンプルカードを内蔵、すぐに使える</li>
-                <li><strong>SillyTavern互換</strong>：SillyTavernのキャラクターカードを完全サポート</li>
-                <li><strong>多様なインポート方法</strong>：画像ファイルインポートとURLインポートに対応、便利で迅速</li>
+                <li><strong>SillyTavern 互換</strong>：SillyTavern のキャラクターカード（character cards）を完全サポート</li>
+                <li><strong>多様なインポート方法</strong>：画像ファイルインポートと URL インポートに対応、便利で迅速</li>
             </ul>
 
             <h2>完全無料で利用可能</h2>
@@ -251,7 +182,7 @@
             <ul class="feature-list">
                 <li><strong>モバイルフレンドリーなインターフェース</strong>：スマートフォン向けに最適化された操作体験</li>
                 <li><strong>ビジュアルノベルモード</strong>：没入感のある対話体験</li>
-                <li><strong>画像生成統合</strong>：Automatic1111 & ComfyUI APIに対応</li>
+                <li><strong>画像生成統合</strong>：Automatic1111 &amp; ComfyUI API に対応</li>
                 <li><strong>音声合成（TTS）</strong>：キャラクターに声を与える</li>
                 <li><strong>WorldInfo（ナレッジベース）</strong>：豊富なキャラクター背景を構築</li>
                 <li><strong>自動翻訳</strong>：言語の壁を越えたコミュニケーション</li>
@@ -261,9 +192,13 @@
         </div>
 
         <footer>
-            <p>今すぐMiniTavernをダウンロードして、<br>SillyTavernの強力な機能をポケットに！</p>
-            <a href="https://mini-tavern.onelink.me/nPqv/wk127r7t" class="cta-button" target="_blank">ダウンロードして使用する（iOS）</a>
-            <a href="https://play.google.com/store/apps/details?id=com.kongyouwangluo.minitavern" class="cta-button" target="_blank">ダウンロードして使用する（Android）</a>
+            <p>今すぐ MiniTavern をダウンロードして、<br>SillyTavern の強力な機能をポケットに！</p>
+            <div class="cta-group">
+                <a href="https://mini-tavern.onelink.me/nPqv/wk127r7t" class="cta-button" target="_blank" rel="noopener noreferrer">ダウンロード（iOS）</a>
+                <a href="https://play.google.com/store/apps/details?id=com.kongyouwangluo.minitavern" class="cta-button" target="_blank" rel="noopener noreferrer">ダウンロード（Android・Google Play）</a>
+                <a href="https://github.com/minitavern/MiniTavern_Android/releases" class="cta-button secondary" target="_blank" rel="noopener noreferrer">Android（GitHub Releases）</a>
+            </div>
+            <p class="download-note">最終更新日：2026年6月1日</p>
         </footer>
     </div>
 </body>
